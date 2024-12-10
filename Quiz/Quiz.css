@@ -1,0 +1,101 @@
+/* TODO: 4 Fontfamily */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 73, 144, 0.3);
+}
+
+/* TODO: 5 Fragen*/
+.question {
+  margin: 5rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 24px;
+  padding: 0.5rem;
+  height: 20rem;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.question-title {
+  font-size: 2rem;
+  margin: 2rem;
+  color: rgba(0, 73, 144, 1);
+}
+.question-start {
+  padding: 3rem;
+  padding-right: 9rem;
+  margin-right: 8rem;
+  font-size: 8rem;
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 73, 144, 1);
+}
+
+.question-answer {
+  margin: 3rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+.answer.correct {
+  height: 3rem;
+  background-color: rgba(62, 146, 204, 1);
+}
+
+.answer.incorrect {
+  height: 3rem;
+  background-color: rgba(237, 28, 36, 1);
+}
+
+button {
+  border: none;
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 3px;
+  height: 3rem;
+  color: rgba(0, 73, 144, 1);
+}
+/* TODO: 6 Antwortmöglichkeiten*/
+
+/* TODO: 7 Footer und Buttons*/
+.Footer {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.skip {
+  color: rgba(0, 73, 144, 1);
+}
+/* TODO: 8 Button Handling und Hover*/
+button:hover {
+  filter: brightness(97%);
+}
+.result {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.result h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: rgba(237, 28, 36, 1);
+}
+
+.result p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: rgba(0, 73, 144, 1);
+}
+.result img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+}
